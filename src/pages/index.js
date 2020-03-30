@@ -6,6 +6,7 @@ import Image from "../components/image"
 import Hero from "../components/Hero"
 import SEO from "../components/seo"
 import Destination from "../components/Destination"
+import Features from "../components/Features"
 
 import "../sass/App.scss"
 
@@ -14,7 +15,7 @@ const IndexPage = data => (
     <SEO title="Home" />
     <Hero />
     <Destination datas={data} />
-    <Link to="/page-2/">Go to page 2</Link>
+    <Features />
   </Layout>
 )
 

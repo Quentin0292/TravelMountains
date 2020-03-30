@@ -1,0 +1,44 @@
+.packages {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  h3 {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  p {
+    max-width: 775px;
+    display: flex;
+    margin: auto;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  ul {
+    text-align: center;
+  }
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      height: 350px;
+      padding: 50px;
+      flex-basis: 50%;
+      text-align: center;
+      h4 {
+        font-size: 30px;
+        margin: 25px 0;
+      }
+
+      svg {
+        color: #8c9eff;
+        font-size: 3em;
+      }
+    }
+  }
+}
