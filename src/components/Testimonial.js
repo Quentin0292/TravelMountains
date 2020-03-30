@@ -3,7 +3,7 @@ import React from "react"
 const Testimonial = () => {
   return (
     <section className="testimonials">
-      <h3 className="title">Testimonials from our adventurers:</h3>
+      <h3 className="title">Testimonials from our adventurers</h3>
       <hr />
       <p className="quote">
         Wow! This tour made me realize how much I love mountains. After going on

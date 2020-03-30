@@ -5,7 +5,7 @@ const Destination = ({ datas }) => {
   console.log(datas.data.allFile.edges)
   return (
     <section className="destinations">
-      <h3>Some of our destinations:</h3>
+      <h3>Some of our destinations</h3>
       <p>
         Tired of the ocean ? Are the plains too plain ? Come along with us on
         one of our mountain adventures. Here are some pictures from people who
