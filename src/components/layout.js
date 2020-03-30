@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { FaTwitter, FaFacebook, FaSnapchatGhost } from "react-icons/fa"
 
 import Header from "./header"
 import "./layout.css"
@@ -31,9 +32,30 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p>
+            Images courtesy of <a href="https://unsplash.com/">unsplash</a>.
+          </p>
+          <p>
+            Why are you even reading this ?! There's never anything interesting
+            in the footer !
+          </p>
+          <ul>
+            <li>
+              <a href="#">
+                <FaTwitter />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <FaSnapchatGhost />
+              </a>
+            </li>
+          </ul>
         </footer>
       </div>
     </>
