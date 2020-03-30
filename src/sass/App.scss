@@ -3,6 +3,7 @@
 @import "hero";
 @import "destination";
 @import "features";
+@import "testimonial";
 
 // General Style
 * {
@@ -31,8 +32,22 @@ a:hover {
   opacity: 1;
 }
 
+section:not(.destinations) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 80px;
+}
+
+section p {
+  max-width: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .container {
-  border: 1px solid red;
   display: flex;
   flex: row;
   justify-content: space-between;

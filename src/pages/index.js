@@ -7,6 +7,7 @@ import Hero from "../components/Hero"
 import SEO from "../components/seo"
 import Destination from "../components/Destination"
 import Features from "../components/Features"
+import Testimonials from "../components/Testimonial"
 
 import "../sass/App.scss"
 
@@ -16,6 +17,7 @@ const IndexPage = data => (
     <Hero />
     <Destination datas={data} />
     <Features />
+    <Testimonials />
   </Layout>
 )
 
